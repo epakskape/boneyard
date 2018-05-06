@@ -2,7 +2,7 @@ Boneyard is a simulation of the game [42](https://en.wikipedia.org/wiki/42_(domi
 
 # Usage
 
-A sample round of boneyard can be played by running `ruby -I. boneyard.rb`. This round uses a simple bot (AI) implementation for each player to demonstrate how a bot can be written.
+A sample round of boneyard can be played by running `ruby -I. boneyard.rb`. This round uses a simple [sample bot](https://github.com/epakskape/boneyard/blob/master/bots/sample.rb) for each player to demonstrate how a bot can be written.
 
 ```
 $ ruby -I. boneyard.rb
@@ -48,4 +48,4 @@ The game play XML can be converted to HTML using the `boneyard.xsl` stylesheet. 
 ApplyXSLT.exe game.xml boneyard.xsl game.html
 ```
 
-An example report can be found in [sample_report.html](https://github.com/epakskape/boneyard/sample_report.html)
+An example report can be found in [sample_report.pdf](https://github.com/epakskape/boneyard/blob/master/sample_report.pdf)
